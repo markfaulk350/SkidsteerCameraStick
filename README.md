@@ -40,7 +40,7 @@ Standard Firgelli setups (e.g., momentary rocker switches requiring constant hol
 - **Microcontroller**: Arduino Uno Rev4 WiFi (or ESP32 alternative for wireless features). Controls the actuator via timing or feedback for one-press operation.
 - **Motor Driver**: Cytron MD10C (10A continuous, bidirectional H-bridge). Interfaces the microcontroller with the actuator for direction and speed control.
 - **Buttons/Switches**: 2 momentary push buttons (SPST) for extend/retract controls. Plus a master toggle switch (SPST, 10A+ at 12V) to kill all power when not in use.
-- **Camera**: Insta360 X3 (360-degree camera for forward/backward views). Alternatively, 2 wide-angle cameras (e.g., Arduino-compatible modules) if not using wireless display.
+- **Camera**: Insta360 X3 (360-degree camera for forward/backward views). Alternatively, 2 wide-angle cameras. The backup camera doesn't necessarily need to be on the pole, it can be mounted on the back door of the skid steer.
 - **Pole**: 8ft aluminum tube (1-inch diameter, 0.049-inch wall thickness). Lightweight and sturdy for mounting the camera.
 - **Power Components**:
   - 12V to 5V DC-DC buck converter (e.g., MP1584 module, 3A output) for USB-C camera charging.
