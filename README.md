@@ -14,11 +14,13 @@
 ## Solution
 Mount an electric linear actuator on the skidsteer arm to pivot an 8ft (potentially length-adjustable) pole equipped with a camera facing forward and over the wall. Mount a 2nd camera on the backdoor. Mount a single display 7-10 inches, that acts as a backup camera most of the time, and when the pole is extended, automatically switch camera views.
 
-- **Retracted Position**: The actuator is fully retracted, the camera on the backdoor is shown on the display
-- **Middle Position**: The actuator stops where it is. The display shows the camera on the pole. This allows for manual controll by the operator, they might want the pole to angle forward or back just a little, this allows them to stop it in place.
-- **Extended Position**: The actuator extends, tilting the pole forward to view over walls. The display automatically changes channels.
+- **Retracted Position**: The actuator is fully retracted until it hits its internal limit switch, the camera on the backdoor is shown on the display (channel 2)
+- **Middle Position**: The actuator stops where it is. The display shows the camera on the pole (channel 1). This allows for manual controll by the operator, they might want the pole to angle forward or back just a little, this allows them to stop it in place.
+- **Extended Position**: The actuator extends until it hits its internal limit switch, tilting the pole forward to view over walls. The display shows (channel 1).
 
-Power the system from the skidsteer's 12V battery in the engine compartment. Use an Arduino (Nano usb C ESP32) mounted inside the cab behind the seat for a clean, dry, and air-conditioned environment. A 3 way non momentary rocker switch controls the linear actuator and display channel. The rocker switch allows for automatic and manual control. 
+Power the system from the skidsteer's 12V battery in the engine compartment. Use an Arduino (Nano usb C ESP32) mounted inside the cab behind the seat for a clean, dry, and air-conditioned environment. A 3 way non momentary rocker switch controls the linear actuator and display channel. The rocker switch allows for automatic and manual control.
+
+My company has 4 skidsteer (CAT 242, 262, 2x 299). I want to install this backup camera and wiring harness in each one. The linear actuator assembly is basically going to be an optional accessory. If I need it, I will strap it to the right arm and connect the power and camera cable. If I dont need the acutator that day, I can leave it at home, and the system will act as a normal backup camera that is always on. I want to be able to mount the linear actuator assembly to any of our 4 skidsteer.
 
 The goal is a simple, automated setup: Load dirt, approach the wall, press a button to extend (within 6 seconds), raise the bucket, view over the wall via the display, dump, then retract and repeat.
 
