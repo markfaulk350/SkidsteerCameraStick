@@ -27,6 +27,7 @@ The goal is a simple, automated setup: Load dirt, approach the wall, press a but
 ## Parts Required
 - **Linear Actuator**: [Progressive Automations 18 inch Linear Actuator 12VDC 100LB 3 inches per second](https://www.progressiveautomations.com/products/linear-actuator-ip66?variant=18277292638275) Provides the tilting mechanism for the camera pole.
 - **Microcontroller**: [Arduino® Nano ESP32 with headers](https://store.arduino.cc/products/nano-esp32-with-headers?srsltid=AfmBOopsVC_qkmjf2s_Hj-NHDhS9w01Qv0nPDyFWVbaifmIE6gNorpFh)
+- **Buck Converter**: [MP1584EN DC-DC Buck Converter Adjustable for 12V --> 7V for nano](https://www.amazon.com/dp/B01MQGMOKI?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
 - **Motor Driver**: [Cytron 13A DC Motor Driver MD10C](https://www.amazon.com/dp/B07CW3JZDH?ref=ppx_yo2ov_dt_b_fed_asin_title) (bidirectional H-bridge). Interfaces the microcontroller with the actuator for direction and speed control.
 - **Buttons/Switches**: [SPDT ON-Off-ON 3 Pin 3 Position Latching Switch Toggle Rocker](https://www.amazon.com/dp/B07D7463T7?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) with 10k? pull down resistors
 - **Camera**: [Rohent R4 dual rv backup camera](https://www.amazon.com/dp/B0C1ZJ63G5?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) Channel 1 is on the pole w the linear actuator, channel 2 is the backup camera mounted on the back door. Channel 2 is activated by connecting the blue wire on the wiring harness to 12V+. 
