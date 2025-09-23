@@ -42,6 +42,7 @@ The goal is a simple, automated setup: Load dirt, approach the wall, press a but
 
 
 # Todo
+* Create a schematic for reference, but dont worry about using it for PCB layout. Figure out what pins we need to use on the nano for each module. PWM? VIN?
 * Measure all 4 boards and their mounting holes (arduino nano, buck converter, relay, H bridge) and save in fusion360
 * Use fusion 360 sketch to place the 4 modules and wiring harness where we want. Put circles for mounting holes, pads, etc. Then export dxf file to kicad and just use the fusion360 template for guideance. KiCad is a bitch to draw and dimension with
 * Figure out how thick the traces need to be for 12V, 3.3V, VIN, VCC, GND.
