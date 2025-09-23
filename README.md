@@ -1,5 +1,9 @@
 # SkidsteerCameraStick
 
+## Links
+* [KiCad Notes | Google Docs](https://docs.google.com/document/d/1usLAj8TeU9ySPlYqQSOAUMu8hb1_OTA7hICEiQGOk0k/edit?usp=sharing)
+* [Youtube | Favorite Arduino Tutorials](https://youtube.com/playlist?list=PLyKjpU5lY5xfGhrxrlotU2c3Mt58I1N_h&si=k3vkIwTQYjMZBtbj)
+
 ## Problems to Solve
 - No visibility over tall walls while operating our three skidsteers (CAT 242, 262, 299). Backfilling walls accounts for 50% of my work, requiring a spotter behind the wall to guide dumping locations and amounts.
 - Relying on spotters is inefficient and frustrating due to inconsistent hand signals.
