@@ -49,8 +49,20 @@ The goal is a simple, automated setup: Load dirt, approach the wall, press a but
 
 
 # Todo
-* Create a schematic for reference, but dont worry about using it for PCB layout. Figure out what pins we need to use on the nano for each module. PWM? VIN?
-* Measure all 4 boards and their mounting holes (arduino nano, buck converter, relay, H bridge) and save in fusion360
-* Use fusion 360 sketch to place the 4 modules and wiring harness where we want. Put circles for mounting holes, pads, etc. Then export dxf file to kicad and just use the fusion360 template for guideance. KiCad is a bitch to draw and dimension with
-* Figure out how thick the traces need to be for 12V, 3.3V, VIN, VCC, GND.
-* Figure out what size pads, or solder holes to use for the different voltages. 
+* Create a schematic or block diagram so our EE knows exactly which components and connections we need
+
+
+
+
+## Block Diagram
+- We are getting power from the 12v - 15v CAT Skidsteer battery, or from the ignition key. Assume battery for now. We need an inline fuse 15A?. We also need to determine the wire guage, and if we are using some kind of connector or just soldering directly to the PCB.
+- We also need a master switch to turn off power to everything when not in use, or use the ignition key
+- We need to run 12v power to
+  - Backup camera system
+  - Voltage regualtor 12v -> 7v for arduino nano
+  - Motor Controller
+  - 3v -> 12v Relay for channel changing
+- The Arduino nano needs to connect to
+  - Motor controller (DIR, PWM, GND)
+  - Relay (VCC, IN, GND)
+  - SPDT On-Off-On 3 Pin Switch + 2 Pull Down 10k Resistors (Digital Input, 3.3V, Digital Input)
