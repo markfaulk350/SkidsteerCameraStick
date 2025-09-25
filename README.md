@@ -63,6 +63,17 @@ The goal is a simple, automated setup: Load dirt, approach the wall, press a but
   - Motor Controller
   - 3v -> 12v Relay for channel changing
 - The Arduino nano needs to connect to
-  - Motor controller (DIR, PWM, GND)
-  - Relay (VCC, IN, GND)
-  - SPDT On-Off-On 3 Pin Switch + 2 Pull Down 10k Resistors (Digital Input, 3.3V, Digital Input)
+  - **Motor Controller (Cytron MD10C)**:
+    - DIR (digital output for direction): Use **D8** HIGH/LOW toggle
+    - PWM (PWM output for speed): Use **D9** PWM-capable for easing/ramping
+    - GND: Connect to any Nano GND pin
+  
+  - **Relay**:
+    - VCC: Connect to Nano 3V3 pin
+    - IN (digital output to trigger): Use **D7** HIGH/LOW to activate (active LOW common)
+    - GND: Connect to Nano GND
+  
+  - **Switch (SPDT 3-way)**:
+    - Common (center): To Nano 3V3 pin
+    - Position 1 (extend/up): To **D6** with 10k pull-down.
+    - Position 2 (retract/down): To **D5** with 10k pull-down.
