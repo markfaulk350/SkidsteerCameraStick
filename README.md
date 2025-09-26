@@ -1,6 +1,7 @@
 # SkidsteerCameraStick
 
 ## Questions for the EE
+* I'll be using stand offs to mount the motor controller and other modules. Can I use circles with layer "edgecuts" or do I need to use an actual footprint for a 3mm hole? In one video I saw, they mentioned the manufacturer might mistake that for a perimeter cut and get the whole dimensions wrong.
 * In Kicad, I dont know when to use GND, and 12V- or 3V-. Basically when to use ground and negative. Arent the negative and ground all connected anyways?
 
 ## Links
