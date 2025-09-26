@@ -1,5 +1,8 @@
 # SkidsteerCameraStick
 
+## Questions for the EE
+* In Kicad, I dont know when to use GND, and 12V- or 3V-. Basically when to use ground and negative. Arent the negative and ground all connected anyways?
+
 ## Links
 * [KiCad Notes | Google Docs](https://docs.google.com/document/d/1usLAj8TeU9ySPlYqQSOAUMu8hb1_OTA7hICEiQGOk0k/edit?usp=sharing)
 * [Youtube | Favorite Arduino Tutorials](https://youtube.com/playlist?list=PLyKjpU5lY5xfGhrxrlotU2c3Mt58I1N_h&si=k3vkIwTQYjMZBtbj)
