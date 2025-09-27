@@ -9,6 +9,7 @@
 * [Youtube | Favorite Arduino Tutorials](https://youtube.com/playlist?list=PLyKjpU5lY5xfGhrxrlotU2c3Mt58I1N_h&si=k3vkIwTQYjMZBtbj)
 * [Udemy KiCad Course](https://www.udemy.com/course/kicad-like-a-pro-3e/learn/lecture/28807802#overview)
 * [All About Circuits | Learning Projects](https://www.allaboutcircuits.com/textbook/experiments/)
+* [www.electronics-tutorials](https://www.electronics-tutorials.ws/)
 
 ## Problems to Solve
 - No visibility over tall walls while operating our three skidsteers (CAT 242, 262, 299). Backfilling walls accounts for 50% of my work, requiring a spotter behind the wall to guide dumping locations and amounts.
