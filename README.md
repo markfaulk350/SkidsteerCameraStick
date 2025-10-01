@@ -1,6 +1,7 @@
 # SkidsteerCameraStick
 
 # Todo
+* Save Project Files to Github
 * Create a chart with net classes on Github and trace widths for each component. Make it clean and easy to reference, then import into kicad net classes
 * Double check that the screw terminals are facing the right way and the pads are in the right order
 * Find the correct screw terminal for the battery input to the PCB
