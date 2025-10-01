@@ -1,6 +1,7 @@
 # SkidsteerCameraStick
 
 # Todo
+* Create a chart with net classes on Github and trace widths for each component. Make it clean and easy to reference, then import into kicad net classes
 * Find the correct screw terminal for the battery input to the PCB
 * Order Ferrules to crimp wires for screw terminals
 * Maybe switch to 2oz copper PCB for thinner traces
