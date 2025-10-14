@@ -58,10 +58,22 @@ The goal is a simple, automated setup: Load dirt, approach the wall, press a but
 - **Wiring and Connectors**: What size wires needed to run to linear actuator and battery?
 - **2mm nylon washers for pole rotation**: [uxcell 25Pcs M10 Nylon Flat Washers Plain Washer 10mm ID 30mm OD 2mm Thick Plastic Washers](https://www.amazon.com/uxcell-Washers-Washer-Plastic-Plumbing/dp/B0F1866XB9/ref=sr_1_6?crid=D7TA55NTUPB2&dib=eyJ2IjoiMSJ9.E4peaiHlvUqwkIQZe9oUDEIo6XNfoY2zX8ClIUL0EfRXNAc_fh-UBrXHTdobxFx8UyVgR3lDDLA3dZtv_kb5ZjWZWzbdlaPN_908DT4MgaUmr2X3j3GhfYomMX7eaetQ2Jlxb_NNiatXfpnNMPe49pYDOyJicS4Qss-Guun5xJtrUfiuKw5YD0HfPddwYoUc-F6o1ROO7-dRV_v5FEyRifyp5NFtsLKaoY17kapM7ekJxR6y33gd-KpW9IoEf2olT4bvmETzXNJK1H66cqPVeKuwUmIhydYWVnw4XvZ21F4.JhILD7gJJwecVn5rQwg1O3_5s3Tx7dsRrHov-GOek5E&dib_tag=se&keywords=flat%2Bfender%2Bwasher%2Bnylon%2Bm10&qid=1757287075&s=hi&sprefix=flat%2Bfender%2Bwasher%2Bnylon%2Bm10%2Ctools%2C183&sr=1-6&th=1)
 
+## PCB Parts Required
+- **Terminal Block 1x2 15A 5mm**: [Wurth Elektronik 1x2 Terminal Block | Mouser](https://www.mouser.com/ProductDetail/Wurth-Elektronik/691502710002?qs=sGAEpiMZZMvPvGwLNS671%2FDg%252BJKjyQe9HQWNyrv5eM87b8L0XSU4yA%3D%3D)
+- **Terminal Block 1x3 15A 5mm  for 3 way switch wires**: [Wurth Elektronik 1x3 Terminal Block 691502710003 | Mouser](https://mou.sr/3W2Yn7l)
+- **Schottky Diode**: [1N5820G Onsemi | Mouser](https://www.mouser.com/ProductDetail/onsemi/1N5820G?qs=y2kkmE52mdMaZomtu%252BD%252BfQ%3D%3D)
+- **Glass Fuse Holder**: [Schurter 3-132-874 Fuse Holder | Mouser](https://mou.sr/4q52jSB)
+- **15A Glass Fuse**: [Little Fuse 15A Glass Fuse 0217015.MXP | Mouser](https://www.mouser.com/ProductDetail/Littelfuse/0217015.MXP?qs=OiFqjYYehYgwRsNUxmXanQ%3D%3D)
+- **1A PTC Fuse**: [Yageo BK60-050-DI 1Amp PTC Fuse | Mouser](https://www.mouser.com/ProductDetail/YAGEO/BK60-050-DI?qs=PzGy0jfpSMs7oE%252BTaoZ9Mw%3D%3D)
+- **Arduino Nano 15 Pin Female Header**: [SparkFun PRT-16279 | Mouser](https://www.mouser.com/ProductDetail/SparkFun/PRT-16279?qs=vmHwEFxEFR8I6W1vfufYPg%3D%3D)
+- **10K Pull Down Resistor**: [Yageo MFR-25JR-52-10K 1/4 W 5% | Mouser](https://www.mouser.com/ProductDetail/YAGEO/MFR-25JR-52-10K?qs=xZ%2FP%252Ba9zWqbHBnqxPK2f8Q%3D%3D) or [Amazon](https://www.amazon.com/E-Projects-10EP51410K0-10k-Resistors-Pack/dp/B00CVZ4DKU?th=1)
+- **Wire Ferrule Crimping Kit**: []()
+- **Stand-offs + Screw kit for PCB's**: []()
+- ** **: []()
 
 
-# Todo
-* Create a schematic or block diagram so our EE knows exactly which components and connections we need
+
+
 
 
 
