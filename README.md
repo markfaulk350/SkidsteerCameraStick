@@ -1,13 +1,12 @@
 # SkidsteerCameraStick
 
 # Todo
-* Save Project Files to Github
+* Double check the relay wiring
 * Create a chart with net classes on Github and trace widths for each component. Make it clean and easy to reference, then import into kicad net classes
-* Double check that the screw terminals are facing the right way and the pads are in the right order
-* Find the correct screw terminal for the battery input to the PCB
+* Double check that the screw terminals are facing the right way
 * Order Ferrules to crimp wires for screw terminals
-* Maybe switch to 2oz copper PCB for thinner traces
-* Update the Components list to include the diodes, fuses, screw terminals, Ferrules, etc.
+* Switch to 2oz copper PCB for thinner 12v traces
+* Still need a master switch for the whole thing at the battery
 
 
 ## Links
@@ -49,7 +48,7 @@ The goal is a simple, automated setup: Load dirt, approach the wall, press a but
 - **Buck Converter**: [MP1584EN DC-DC Buck Converter Adjustable for 12V --> 7V for nano](https://www.amazon.com/dp/B01MQGMOKI?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
 - **Motor Driver**: [Cytron 13A DC Motor Driver MD10C](https://www.amazon.com/dp/B07CW3JZDH?ref=ppx_yo2ov_dt_b_fed_asin_title) (bidirectional H-bridge). Interfaces the microcontroller with the actuator for direction and speed control.
 - **Relay 3.3V --> 12V**: [Teyleten Robot DC 1 Channel Optocoupler 3V/3.3V Relay](https://www.amazon.com/dp/B07XGZSYJV?ref=ppx_yo2ov_dt_b_fed_asin_title) This will be used to change the display channel. When 12VDC+ is applied to the blue wire on the backup camera wiring harness, channel 2 is shown
-- **Buttons/Switches**: [SPDT ON-Off-ON 3 Pin 3 Position Latching Switch Toggle Rocker](https://www.amazon.com/dp/B07D7463T7?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) with 10k? pull down resistors
+- **Buttons/Switches**: [SPDT ON-Off-ON 3 Pin 3 Position Latching Switch Toggle Rocker](https://www.amazon.com/dp/B07D7463T7?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) with 10k pull down resistors
 - **Camera**: [Rohent R4 dual rv backup camera](https://www.amazon.com/dp/B0C1ZJ63G5?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) Channel 1 is on the pole w the linear actuator, channel 2 is the backup camera mounted on the back door. Channel 2 is activated by connecting the blue wire on the wiring harness to 12V+. 
 - **Pole**: 8ft aluminum square tube (1-inch square, 0.062-inch wall thickness). Lightweight and sturdy for mounting the camera.
 - **Power Components**:
