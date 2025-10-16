@@ -1,14 +1,9 @@
 # SkidsteerCameraStick
 
 # Todo
-* Double check you wired the 3 way switch terminal correctly, you need to route to the resistor, then to data
-*
-* Double check the relay wiring
-* Create a chart with net classes on Github and trace widths for each component. Make it clean and easy to reference, then import into kicad net classes
-* Double check that the screw terminals are facing the right way
 * Order Ferrules to crimp wires for screw terminals
-* Switch to 2oz copper PCB for thinner 12v traces
 * Still need a master switch for the whole thing at the battery
+* Upload project files to Github
 
 
 ## Links
